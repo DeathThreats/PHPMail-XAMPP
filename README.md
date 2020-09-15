@@ -1,2 +1,5 @@
 # PHPMail-XAMPP
-Using PHPMailer and XAMPP to send emails from Contact Forms in your Website
+
+What you need:
+- Gmail Account (less secured apps enabled)
+- running XAMPP server (apache)
