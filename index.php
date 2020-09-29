@@ -44,7 +44,7 @@ if(isset($_POST['submit'])){
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Contact Us</title>
+        <title>Contact us</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body style="text-align:center;margin-top:3rem;line-height:3;">
@@ -53,7 +53,7 @@ if(isset($_POST['submit'])){
 
             <!-- Visitor's Name,input field -->
             <label for="name">Name</label>
-                <input name="name" type="text" minlength="3" maxlength="43" required patter="[a-zA-Z0-9]+"><br>
+                <input name="name" type="text" minlength="3" maxlength="43" required pattern="[a-zA-Z0-9]+"><br>
 
             <!-- Visitor's Email, input field -->
             <label for="email">Email</label>
@@ -61,7 +61,7 @@ if(isset($_POST['submit'])){
 
             <!-- Visitor's Subject, input field -->
             <label for="subject">Subject</label>
-                <input name="subject" type="text" minlength="3" maxlength="43" required patter="[a-zA-Z]+"><br>
+                <input name="subject" type="text" minlength="3" maxlength="43" required pattern="[a-zA-Z]+"><br>
 
             <!-- Visitor's Subject, input field -->
             <label for="message">Message</label><br>
